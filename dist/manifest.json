@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Vision",
+  "version": "1.0",
+  "description": "Later",
+  "icons": {
+    "48": "icons/icons1.png"
+  },
+  "sidebar_action": {
+    "default_icon": {
+      "48": "icons/icons1.png"
+    },
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": false
+    },
+    "default_title": "Unknown",
+    "default_panel": "sidebar.html",
+    "open_at_install": true
+  }
+}

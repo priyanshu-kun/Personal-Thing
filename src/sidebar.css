@@ -1,0 +1,229 @@
+
+
+body {
+    background-color: #121212;
+}
+
+
+.picker_btn {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 0, 255);
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff; 
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.picker_btn_icon {
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.picker_btn:hover {
+    background-color: rgb(167, 0, 218);
+}
+
+
+.heading {
+    margin: 0 auto;
+}
+
+.heading p:nth-child(1) {
+    margin: 30px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+
+.heading p:nth-child(2) {
+    margin: 0 auto 30px auto;
+    font-size: 1.2rem;
+    font-weight: 900;
+    opacity: 0.6;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    text-decoration: underline;
+}
+
+.Vision__board {
+    width: 80%;
+    max-width: 400px;
+    height: 200px;
+    background-color: #fff;
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+
+.google__logo {
+  width: 60%;
+}
+
+
+.oauth__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.oauth {
+    font-weight: 900;
+    font-size: 1rem;
+    opacity: 0.8;
+    width: 80%;
+    text-align: center;
+}
+
+
+.oauth + span {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    font-weight: 900;
+
+}
+
+.oauth__form {
+    width: 90%;
+    min-width: 160px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.oauth__form__fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.oauth__form__fields input, .oauth__form__fields textarea {
+   width: 100% 
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 2px dashed rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #161616;
+    transition: all 0.3s ease;
+}
+
+
+.custom-file-upload:hover {
+    background-color: #1a1a1a;
+}
+
+
+.file-msg {
+    text-align: center;
+    color: rgb(255, 255, 255,0.6);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.oauth__form__fields textarea, .oauth__form__fields input[type='text'] {
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+    outline: none;
+    color: white;
+    background-color: #161616;
+    padding: 20px 30px;
+    margin-top: 8px;
+    resize: none;
+    transition: all 0.3s ease;
+}
+
+.oauth__form__fields textarea:hover, .oauth__form__fields input[type='text']:hover {
+    background-color: #1a1a1a;
+}
+
+
+
+.oauth__form__fields textarea::placeholder, .oauth__form__fields input[type='text']::placeholder {
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+
+
+.oauth__form__fields input[type='text'] {
+    height: 60px;
+}
+
+
+.submit-btn {
+    width: 180px;
+    height: 60px;
+    margin-top: 20px !important;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.3);
+    background-color: #00C696;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.submit-btn:hover {
+    background-color: #00a178;
+}
+
+
+.description {
+    margin: 0 auto;
+    width: 80%;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 0,0.2);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: rgb(255, 0, 0,0.1);
+}
