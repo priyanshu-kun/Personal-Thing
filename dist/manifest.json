@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Vision",
   "version": "1.0",
-  "description": "Later",
+  "description": "It's a main goal reaminder board for a person",
   "icons": {
     "48": "icons/icons1.png"
   },
@@ -16,7 +16,7 @@
       ],
       "persistent": false
     },
-    "default_title": "Unknown",
+    "default_title": "Vision_Google",
     "default_panel": "sidebar.html",
     "open_at_install": true
   }
